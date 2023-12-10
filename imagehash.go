@@ -111,8 +111,6 @@ func LoadImageHash(b io.Reader) (*ImageHash, error) {
 }
 
 // ImageHashFromString returns an image hash from a hex representation
-//
-// Deprecated: Use goimagehash.LoadImageHash instead.
 func ImageHashFromString(s string) (*ImageHash, error) {
 	var kindStr string
 	var hash uint64
