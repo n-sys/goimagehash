@@ -9,9 +9,10 @@ import (
 	"image"
 	"sync"
 
-	"github.com/corona10/goimagehash/etcs"
-	"github.com/corona10/goimagehash/transforms"
 	"github.com/nfnt/resize"
+
+	"github.com/n-sys/goimagehash/etcs"
+	"github.com/n-sys/goimagehash/transforms"
 )
 
 // AverageHash function returns a hash computation of average hash.
