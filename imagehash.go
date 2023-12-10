@@ -229,8 +229,6 @@ func LoadExtImageHash(b io.Reader) (*ExtImageHash, error) {
 const extStrFmt = "%1s:%s"
 
 // ExtImageHashFromString returns a big hash from a hex representation
-//
-// Deprecated: Use goimagehash.LoadExtImageHash instead.
 func ExtImageHashFromString(s string) (*ExtImageHash, error) {
 	var kindStr string
 	var hashStr string
